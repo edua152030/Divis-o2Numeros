@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Exemplo Fleek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="principal">
+        <form id="enviar">
+            <div id="dividendo">
+                <label for="tdividendo">Dividendo:</label>
+                <input type="text" id="tdividendo" value=""/>
+            </div>
+
+            <div id="divisor">
+                <label for="tdivisor">Divisor:</label>
+                <input type="text" id="tdivisor" value=""/>
+            </div>
+           
+            <input onclick="calcular()" type="button" value="CALCULAR">
+
+            <div id="resultado">
+                <label for="tresultado">Resultado:</label>
+                <input type="text" id="tresultado" />
+            </div>
+            <h1 id="msgerro"></h1>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
